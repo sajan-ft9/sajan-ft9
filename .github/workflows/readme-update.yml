@@ -1,0 +1,17 @@
+name: Update README
+
+on:
+  schedule:
+    - cron: "0 0 * * 0" # weekly
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Update README placeholder
+        run: echo "README auto-update $(date)" >> .github/updated
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: weekly README update"

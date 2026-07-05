@@ -1,0 +1,17 @@
+name: Latest Blog Posts
+
+on:
+  schedule:
+    - cron: "0 6 * * 1" # weekly
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: gautamkrishnar/blog-post-workflow@v1
+        with:
+          feed_list: ""
+          max_post_count: 5
+          comment_tag_name: "BLOG-POSTS"
