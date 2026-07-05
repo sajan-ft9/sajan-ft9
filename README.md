@@ -250,16 +250,18 @@ Time series forecasting and analysis system for financial market data, implement
 
 ---
 
-### Pneumonia Detection Framework
+### Memory-Efficient and Explainable Deep Learning Framework for Pneumonia Detection in Resource-Constrained Healthcare Environments
 
-Deep learning framework for explainable pneumonia detection from chest X-ray images, with emphasis on model efficiency and clinical interpretability.
+Developed a memory-efficient and explainable deep learning framework for automated pneumonia detection from chest X-ray images, designed for deployment in resource-constrained healthcare environments. The framework combines transfer learning, post-training INT8 quantization, and explainable AI techniques to significantly reduce model size, memory consumption, and inference latency while maintaining high diagnostic performance.
 
-- PyTorch-based training pipeline with EfficientNet-B0
-- Grad-CAM++ for model explainability
-- Static INT8 quantization for edge deployment
-- External validation on RSNA dataset
-- Bootstrap confidence intervals for robustness
-- Reproducible evaluation and benchmarking
+- EfficientNet-B0 transfer learning
+- Static and dynamic INT8 quantization
+- Grad-CAM++ explainability
+- Memory and latency optimization
+- External validation using the RSNA dataset
+- Bootstrap confidence intervals for robust evaluation
+- Reproducible experimental pipeline
+- Deployment-oriented AI for low-resource environments
 
 **Stack:** Python · PyTorch · OpenCV · Grad-CAM++
 
