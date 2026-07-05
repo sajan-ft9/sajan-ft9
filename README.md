@@ -278,27 +278,6 @@ Open-source projects under active development:
 
 ---
 
-## Current Work
-
-| Project | Status |
-|:--------|:-------|
-| Master's Thesis | Final Review |
-| Journal Publication | Preparing Manuscript |
-| Research Toolkit | Planning |
-| PhD Applications | Preparing |
-
----
-
-## Roadmap
-
-```text
-☐ Release Master Thesis Code & Documentation
-☐ Publish ML Research Toolkit (Open Source)
-☐ Write Engineering Case Studies (System Design)
-☐ Open Source Contributions to established projects
-```
-
-
 ## Connect
 
 <p align="center">
