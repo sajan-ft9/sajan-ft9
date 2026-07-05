@@ -20,7 +20,7 @@
 
 ## About
 
-Software Engineer with 3+ years of experience designing, developing, deploying, and maintaining enterprise software systems across healthcare, ERP, workflow automation, and AI-assisted platforms. My expertise spans backend architecture, distributed systems, cloud infrastructure, DevOps, and production operations. Alongside professional software engineering, I conduct research in computer vision, explainable AI, efficient deep learning, and trustworthy machine learning, with a focus on developing reproducible methods that bridge academic research and production-ready AI systems.
+Software Engineer with 3+ years of experience designing, developing, deploying, and maintaining enterprise software systems across healthcare, enterprise resource planning (ERP), telecommunications, workflow automation, and AI-assisted platforms. My work focuses on scalable backend architecture, distributed systems, cloud infrastructure, DevOps, and production operations, complemented by research in computer vision, efficient deep learning, and explainable AI for resource-constrained environments.
 
 ---
 
@@ -96,7 +96,7 @@ Software Engineer with 3+ years of experience designing, developing, deploying, 
 ## Technology Stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,php,laravel,django,fastapi,react,nextjs,pytorch,tensorflow,opencv,postgres,mysql,docker,linux,git&theme=dark&perline=8" alt="Technology Stack" />
+  <img src="https://skillicons.dev/icons?i=python,php,laravel,django,fastapi,react,nextjs,pytorch,tensorflow,opencv,postgres,mysql,redis,nginx,docker,linux,git&theme=dark&perline=9" alt="Technology Stack" />
 </p>
 
 <p align="center">
@@ -124,16 +124,23 @@ I am interested in building AI systems that are not only accurate but also effic
 
 ---
 
+## Engineering Philosophy
+
+I enjoy designing maintainable software systems that prioritize scalability, reliability, observability, and long-term maintainability. I believe good engineering balances clean architecture, operational simplicity, and measurable business impact.
+
+---
+
 ## Selected Engineering Projects
 
 ### Enterprise M2M Connectivity Platform (Germany)
 
-Designed and maintained backend services for an enterprise-scale Machine-to-Machine connectivity management platform used by a large organization in Germany. Unified SIM lifecycle management across multiple telecommunications providers into a single operational system supporting customers, dealers, subscriptions, usage monitoring, billing preparation, and operational reporting.
+Designed and maintained backend services for an enterprise-scale Machine-to-Machine connectivity management platform used by a large organization in Germany. Unified enterprise SIM lifecycle management across four telecommunications providers into a centralized platform supporting customer, dealer, subscription, usage monitoring, billing preparation, and operational reporting.
 
 - Enterprise Laravel backend architecture
 - Integration with multiple telecom provider REST APIs
 - Unified SIM lifecycle management
 - Automated synchronization pipelines with Cron and Redis queues
+- Third-party API integrations with retry mechanisms and error recovery
 - Dealer, customer, and subscription management
 - Usage monitoring and billing preparation dashboards
 - Historical audit trails and reporting
@@ -152,13 +159,14 @@ Contributed to the design, implementation, and maintenance of enterprise ERP mod
 - Multi-module ERP backend architecture
 - Payroll processing and financial accounting
 - HR management, attendance, and leave tracking
-- Approval workflow engine with configurable chains
-- Notification services and event-driven processing
+- Configurable approval chains with multi-step transitions
+- Notification engine with channel abstraction
+- Queue-driven background processing and event-driven architecture
 - Role-based access control and multi-tenant architecture
 - Reporting and analytics with query optimization
 - Database indexing and performance tuning
 
-**Stack:** Laravel · PHP · PostgreSQL · Docker · Linux · Nginx
+**Stack:** Laravel · PHP · PostgreSQL · Redis · Docker · Linux · Nginx
 
 ---
 
@@ -192,50 +200,6 @@ Built AI-assisted backend services for intelligent document processing and colla
 
 ---
 
-### REST API Integration Platform
-
-Integrated external enterprise services through third-party REST APIs, implementing robust authentication, synchronization, and error recovery patterns.
-
-- Third-party REST API integrations with key-based authentication
-- Retry mechanisms and error recovery for reliability
-- Scheduled synchronization jobs and background processing
-- Request tracing and monitoring for operational visibility
-- Secure middleware and data transformation layers
-
-**Stack:** Laravel · PHP · PostgreSQL · Redis · REST APIs
-
----
-
-### Workflow Automation Engine
-
-Designed and implemented configurable workflow automation for enterprise approval chains, notification routing, and event-driven task processing.
-
-- Configurable approval chains with multi-step transitions
-- Notification engine with channel abstraction
-- Queue-driven background processing
-- Scheduled automation and cron-based triggers
-- Event-driven architecture with service layer patterns
-- Permission-aware workflow state management
-
-**Stack:** Laravel · PHP · Redis · PostgreSQL · Queue Workers
-
----
-
-### AI Research Platform
-
-Built reusable engineering infrastructure for machine learning experimentation, model evaluation, and reproducible research workflows.
-
-- Experiment tracking and configuration management
-- Model evaluation pipelines with metric aggregation
-- Explainability visualization (Grad-CAM, saliency maps)
-- Quantization workflows for model compression
-- Dataset management and preprocessing automation
-- Training pipeline orchestration
-
-**Stack:** Python · PyTorch · TensorFlow · OpenCV
-
----
-
 ### Stock Forecasting System
 
 Time series forecasting and analysis system for financial market data, implementing end-to-end ML pipeline from feature engineering to model evaluation.
@@ -247,23 +211,6 @@ Time series forecasting and analysis system for financial market data, implement
 - Reproducible experiment pipeline
 
 **Stack:** Python · TensorFlow · Pandas · Matplotlib
-
----
-
-### Memory-Efficient and Explainable Deep Learning Framework for Pneumonia Detection in Resource-Constrained Healthcare Environments
-
-Developed a memory-efficient and explainable deep learning framework for automated pneumonia detection from chest X-ray images, designed for deployment in resource-constrained healthcare environments. The framework combines transfer learning, post-training INT8 quantization, and explainable AI techniques to significantly reduce model size, memory consumption, and inference latency while maintaining high diagnostic performance.
-
-- EfficientNet-B0 transfer learning
-- Static and dynamic INT8 quantization
-- Grad-CAM++ explainability
-- Memory and latency optimization
-- External validation using the RSNA dataset
-- Bootstrap confidence intervals for robust evaluation
-- Reproducible experimental pipeline
-- Deployment-oriented AI for low-resource environments
-
-**Stack:** Python · PyTorch · OpenCV · Grad-CAM++
 
 ---
 
@@ -327,7 +274,7 @@ Open-source projects under active development:
 - **EfficientNet-XAI** — Model quantization and explainability toolkit
 - **Research Toolkit** — Reusable ML pipeline and experiment tracking utilities
 - **Experiment Tracker** — Lightweight experiment logging for research
-- **Engineering Case Studies** — Architecture documentation and system design notes
+- **Engineering Case Studies** — Enterprise architecture, system design, performance optimization, PostgreSQL tuning, Laravel architecture
 
 ---
 
