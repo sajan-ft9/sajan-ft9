@@ -284,7 +284,7 @@ Open-source projects under active development:
   <a href="mailto:sajankhad2@gmail.com"><b>Email</b></a> •
   <a href="https://linkedin.com/in/sajan-khadka-ft9"><b>LinkedIn</b></a> •
   <a href="https://scholar.google.com/citations?user=qNlepR0AAAAJ"><b>Google Scholar</b></a> •
-  <a href="https://orcid.org/0009-0001-6576-877X"><b>ORCID</b></a> •
+  <a href="https://orcid.org/0009-0001-6576-877X"><b>ORCID</b></a>
   <!-- <a href="https://sajan-ft9.github.io"><b>Resume</b></a> -->
 </p>
 
