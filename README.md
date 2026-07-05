@@ -56,17 +56,40 @@ Software Engineer with 3+ years of experience designing, developing, deploying, 
 
 ## Core Expertise
 
-**Software Engineering**
+### Software Engineering
 
-• Backend Engineering • API Design • Distributed Systems • Software Architecture • Workflow Automation • Performance Optimization
+- Backend Architecture & Enterprise Software Development
+- Distributed Systems & System Integration
+- REST API Design & Development
+- Workflow Automation & Queue-Based Processing
+- Database Design, Optimization & Performance Engineering
+- Authentication, Authorization & Multi-Tenant Architecture
+- Production Operations & Deployment
 
-**Research Engineering**
+### Infrastructure
 
-• Computer Vision • Explainable AI • Deep Learning • Transfer Learning • Model Quantization • Medical Imaging
+- Docker, Linux, Nginx, Redis
+- CI/CD & Automation
+- Production Operations & Monitoring
 
-**Infrastructure**
+### Research Engineering
 
-• Docker • Linux • CI/CD • Nginx • Observability • Cloud Deployment
+- Computer Vision & Medical Image Analysis
+- Explainable AI (Grad-CAM, Saliency Maps)
+- Efficient Deep Learning & Model Compression
+- Transfer Learning & Quantization
+- Reproducible ML Pipelines & Experiment Tracking
+
+### Engineering Practices
+
+- Clean Architecture & SOLID Principles
+- Service-Oriented & Event-Driven Design
+- Repository & Service Layer Patterns
+- API Versioning & Documentation
+- Queue-Driven & Scheduled Processing
+- Testable & Maintainable Code
+- Database Performance Optimization
+- CI/CD & Automated Deployments
 
 ---
 
@@ -101,39 +124,144 @@ I am interested in building AI systems that are not only accurate but also effic
 
 ---
 
-## Selected Engineering Experience
+## Selected Engineering Projects
 
-### Enterprise Software
+### Enterprise M2M Connectivity Platform (Germany)
 
-- Backend architecture and API development for enterprise resource planning
-- Authentication, authorization, and multi-tenant data access
-- Workflow automation engine for approval chains and notifications
-- Complex PostgreSQL query optimization for reporting and analytics
-- Production deployment and infrastructure management
+Designed and maintained backend services for an enterprise-scale Machine-to-Machine connectivity management platform used by a large organization in Germany. Unified SIM lifecycle management across multiple telecommunications providers into a single operational system supporting customers, dealers, subscriptions, usage monitoring, billing preparation, and operational reporting.
 
-**Representative project:** Enterprise ERP — Payroll, Finance, HR modules
+- Enterprise Laravel backend architecture
+- Integration with multiple telecom provider REST APIs
+- Unified SIM lifecycle management
+- Automated synchronization pipelines with Cron and Redis queues
+- Dealer, customer, and subscription management
+- Usage monitoring and billing preparation dashboards
+- Historical audit trails and reporting
+- PostgreSQL optimization for high-volume datasets
+- Secure API authentication and middleware
+- Dockerized deployment on Linux
+
+**Stack:** Laravel · PHP · PostgreSQL · Redis · Docker · REST APIs · Linux · Nginx
 
 ---
 
-### Healthcare Platforms
+### Enterprise ERP Platform
 
-- Full-stack platform design for institutional research ethics review
-- Secure protocol submission workflows with granular permission controls
-- Audit logging and compliance tracking for international standards
+Contributed to the design, implementation, and maintenance of enterprise ERP modules supporting business operations across finance, payroll, human resources, attendance, approvals, and reporting.
+
+- Multi-module ERP backend architecture
+- Payroll processing and financial accounting
+- HR management, attendance, and leave tracking
+- Approval workflow engine with configurable chains
+- Notification services and event-driven processing
+- Role-based access control and multi-tenant architecture
+- Reporting and analytics with query optimization
+- Database indexing and performance tuning
+
+**Stack:** Laravel · PHP · PostgreSQL · Docker · Linux · Nginx
+
+---
+
+### WHO-Backed Ethics Review Platform
+
+Developed secure web applications supporting institutional research ethics review workflows for healthcare organizations, emphasizing compliance, auditability, and secure document management.
+
+- Secure protocol submission with granular permission controls
+- Multi-stage review workflow with committee assignment
+- Role-based access control and audit logging
 - Encrypted document storage and secure file handling
+- Email notifications and workflow state management
+- International compliance requirements for research ethics
 
-**Representative project:** Ethics Review Platform (WHO-backed)
+**Stack:** React · Django REST Framework · PostgreSQL · Docker
 
 ---
 
-### AI Applications
+### AI-Powered Tender Platform
 
-- LLM integration for automated document analysis and extraction
-- FastAPI microservices for document processing pipelines
-- Role-based access control for multi-tenant AI-assisted platforms
-- Real-time collaboration features via WebSocket connections
+Built AI-assisted backend services for intelligent document processing and collaborative tender management.
 
-**Representative project:** AI-Powered Tender Platform
+- LLM integration for automated document extraction and analysis
+- FastAPI microservices for document processing pipeline
+- Background processing with queue-based architecture
+- Real-time collaboration via WebSocket connections
+- Role-based access control for multi-tenant use
+- RESTful API design and Docker deployment
+
+**Stack:** Python · FastAPI · NextJS · PostgreSQL · Docker · Nginx
+
+---
+
+### REST API Integration Platform
+
+Integrated external enterprise services through third-party REST APIs, implementing robust authentication, synchronization, and error recovery patterns.
+
+- Third-party REST API integrations with key-based authentication
+- Retry mechanisms and error recovery for reliability
+- Scheduled synchronization jobs and background processing
+- Request tracing and monitoring for operational visibility
+- Secure middleware and data transformation layers
+
+**Stack:** Laravel · PHP · PostgreSQL · Redis · REST APIs
+
+---
+
+### Workflow Automation Engine
+
+Designed and implemented configurable workflow automation for enterprise approval chains, notification routing, and event-driven task processing.
+
+- Configurable approval chains with multi-step transitions
+- Notification engine with channel abstraction
+- Queue-driven background processing
+- Scheduled automation and cron-based triggers
+- Event-driven architecture with service layer patterns
+- Permission-aware workflow state management
+
+**Stack:** Laravel · PHP · Redis · PostgreSQL · Queue Workers
+
+---
+
+### AI Research Platform
+
+Built reusable engineering infrastructure for machine learning experimentation, model evaluation, and reproducible research workflows.
+
+- Experiment tracking and configuration management
+- Model evaluation pipelines with metric aggregation
+- Explainability visualization (Grad-CAM, saliency maps)
+- Quantization workflows for model compression
+- Dataset management and preprocessing automation
+- Training pipeline orchestration
+
+**Stack:** Python · PyTorch · TensorFlow · OpenCV
+
+---
+
+### Stock Forecasting System
+
+Time series forecasting and analysis system for financial market data, implementing end-to-end ML pipeline from feature engineering to model evaluation.
+
+- Time series forecasting with statistical and deep learning models
+- Feature engineering on financial market data
+- Model evaluation and comparison framework
+- Visualization of predictions and historical trends
+- Reproducible experiment pipeline
+
+**Stack:** Python · TensorFlow · Pandas · Matplotlib
+
+---
+
+### Pneumonia Detection Framework
+
+Deep learning framework for explainable pneumonia detection from chest X-ray images, with emphasis on model efficiency and clinical interpretability.
+
+- PyTorch-based training pipeline with EfficientNet-B0
+- Grad-CAM++ for model explainability
+- Static INT8 quantization for edge deployment
+- External validation on RSNA dataset
+- Bootstrap confidence intervals for robustness
+- Reproducible evaluation and benchmarking
+
+**Stack:** Python · PyTorch · OpenCV · Grad-CAM++
 
 ---
 
@@ -220,6 +348,18 @@ Open-source projects under active development:
 ☐ Write Engineering Case Studies (System Design)
 ☐ Open Source Contributions to established projects
 ```
+
+## GitHub Statistics
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=sajan-ft9&show_icons=true&theme=dark&hide_border=true&count_private=true&include_all_commits=true&bg_color=0D1117&icon_color=58A6FF&title_color=58A6FF&text_color=C9D1D9" alt="GitHub Stats" />
+  <br /><br />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=sajan-ft9&theme=github-dark&bg_color=0D1117&hide_border=true&area=true" alt="Contribution Graph" />
+  <br /><br />
+  <img src="https://github-profile-trophy.vercel.app/?username=sajan-ft9&theme=darkhub&no-frame=true&row=1&column=6" alt="Trophies" />
+</div>
+
+---
 
 ## Connect
 
