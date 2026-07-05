@@ -27,27 +27,21 @@ Software Engineer with 3+ years of experience designing, developing, deploying, 
 
 <table>
 <tr>
-<td align="center" width="25%">
+<td align="center" width="33%">
   <h3>Experience</h3>
   <p>3+ Years</p>
 </td>
-<td align="center" width="25%">
+<td align="center" width="33%">
   <h3>Domains</h3>
   <p>Healthcare</p>
   <p>ERP</p>
   <p>Telecommunications</p>
   <p>AI Systems</p>
 </td>
-<td align="center" width="25%">
+<td align="center" width="33%">
   <h3>Research</h3>
   <p>Computer Vision</p>
   <p>Explainable AI</p>
-</td>
-<td align="center" width="25%">
-  <h3>Current Focus</h3>
-  <p>Research Engineering</p>
-  <p>Applied AI</p>
-  <p>PhD Preparation</p>
 </td>
 </tr>
 </table>
