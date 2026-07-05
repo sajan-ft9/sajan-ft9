@@ -1,7 +1,6 @@
 <div align="center">
   <img src="assets/banner.svg" width="100%" alt="Sajan Khadka Banner" />
   <br />
-  <img src="https://komarev.com/ghpvc/?username=sajan-ft9&style=flat-square&color=58A6FF" alt="Profile Views" />
 </div>
 
 <h1 align="center">Sajan Khadka</h1>
@@ -53,6 +52,17 @@ Software Engineer with 3+ years of experience designing, developing, deploying, 
 </tr>
 </table>
 
+## Technology Stack
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,php,laravel,django,fastapi,react,nextjs,pytorch,tensorflow,opencv,postgres,mysql,redis,nginx,docker,linux,git,gitlab&theme=dark&perline=9" alt="Technology Stack" />
+</p>
+
+<p align="center">
+  <sub>Backend • AI/ML • Databases • Infrastructure</sub>
+</p>
+
+
 ---
 
 ## Core Expertise
@@ -94,17 +104,6 @@ Software Engineer with 3+ years of experience designing, developing, deploying, 
 
 ---
 
-## Technology Stack
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=python,php,laravel,django,fastapi,react,nextjs,pytorch,tensorflow,opencv,postgres,mysql,redis,nginx,docker,linux,git,gitlab&theme=dark&perline=9" alt="Technology Stack" />
-</p>
-
-<p align="center">
-  <sub>Backend • AI/ML • Databases • Infrastructure</sub>
-</p>
-
----
 
 ## Research Interests
 
@@ -131,7 +130,7 @@ I enjoy designing maintainable software systems that prioritize scalability, rel
 
 ---
 
-## Selected Engineering Projects
+## Professional Engineering Projects
 
 ### Enterprise M2M Connectivity Platform (Germany)
 
@@ -182,7 +181,7 @@ Developed secure web applications supporting institutional research ethics revie
 - Email notifications and workflow state management
 - International compliance requirements for research ethics
 
-**Stack:** React · Django REST Framework · PostgreSQL · Docker
+**Stack:** React · Django REST Framework · Redis · PostgreSQL · Docker
 
 ---
 
@@ -197,7 +196,7 @@ Designed and developed AI-assisted backend services for intelligent document pro
 - Role-based access control for multi-tenant use
 - RESTful API design and Docker deployment
 
-**Stack:** Python · FastAPI · NextJS · PostgreSQL · Docker · Nginx
+**Stack:** Laravel · Python · FastAPI · NextJS · PostgreSQL · Docker · Nginx 
 
 ---
 
@@ -299,17 +298,6 @@ Open-source projects under active development:
 ☐ Open Source Contributions to established projects
 ```
 
-## GitHub Statistics
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=sajan-ft9&show_icons=true&theme=dark&hide_border=true&count_private=true&include_all_commits=true&bg_color=0D1117&icon_color=58A6FF&title_color=58A6FF&text_color=C9D1D9" alt="GitHub Stats" />
-  <br /><br />
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=sajan-ft9&theme=github-dark&bg_color=0D1117&hide_border=true&area=true" alt="Contribution Graph" />
-  <br /><br />
-  <img src="https://github-profile-trophy.vercel.app/?username=sajan-ft9&theme=darkhub&no-frame=true&row=1&column=6" alt="Trophies" />
-</div>
-
----
 
 ## Connect
 
@@ -318,7 +306,7 @@ Open-source projects under active development:
   <a href="https://linkedin.com/in/sajan-khadka-ft9"><b>LinkedIn</b></a> •
   <a href="https://scholar.google.com/citations?user=qNlepR0AAAAJ"><b>Google Scholar</b></a> •
   <a href="https://orcid.org/0009-0001-6576-877X"><b>ORCID</b></a> •
-  <a href="https://sajan-ft9.github.io"><b>Resume</b></a>
+  <!-- <a href="https://sajan-ft9.github.io"><b>Resume</b></a> -->
 </p>
 
 ---
