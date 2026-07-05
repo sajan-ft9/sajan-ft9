@@ -36,7 +36,8 @@ Software Engineer with 3+ years of experience designing, developing, deploying, 
   <h3>Domains</h3>
   <p>Healthcare</p>
   <p>ERP</p>
-  <p>Automation</p>
+  <p>Telecommunications</p>
+  <p>AI Systems</p>
 </td>
 <td align="center" width="25%">
   <h3>Research</h3>
@@ -96,7 +97,7 @@ Software Engineer with 3+ years of experience designing, developing, deploying, 
 ## Technology Stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,php,laravel,django,fastapi,react,nextjs,pytorch,tensorflow,opencv,postgres,mysql,redis,nginx,docker,linux,git&theme=dark&perline=9" alt="Technology Stack" />
+  <img src="https://skillicons.dev/icons?i=python,php,laravel,django,fastapi,react,nextjs,pytorch,tensorflow,opencv,postgres,mysql,redis,nginx,docker,linux,git,gitlab&theme=dark&perline=9" alt="Technology Stack" />
 </p>
 
 <p align="center">
@@ -134,7 +135,7 @@ I enjoy designing maintainable software systems that prioritize scalability, rel
 
 ### Enterprise M2M Connectivity Platform (Germany)
 
-Designed and maintained backend services for an enterprise-scale Machine-to-Machine connectivity management platform used by a large organization in Germany. Unified enterprise SIM lifecycle management across four telecommunications providers into a centralized platform supporting customer, dealer, subscription, usage monitoring, billing preparation, and operational reporting.
+Designed and maintained backend services for an enterprise-scale Machine-to-Machine connectivity management platform used by a large organization in Germany. Unified enterprise SIM lifecycle management across four telecommunications providers into a centralized platform supporting customer, dealer, subscription, usage monitoring, billing preparation, and operational reporting.The platform emphasized maintainability, operational reliability, and scalable asynchronous processing for enterprise production workloads.
 
 - Enterprise Laravel backend architecture
 - Integration with multiple telecom provider REST APIs
@@ -187,7 +188,7 @@ Developed secure web applications supporting institutional research ethics revie
 
 ### AI-Powered Tender Platform
 
-Built AI-assisted backend services for intelligent document processing and collaborative tender management.
+Designed and developed AI-assisted backend services for intelligent document processing and collaborative tender management using FastAPI microservices and LLM-powered workflows.
 
 - LLM integration for automated document extraction and analysis
 - FastAPI microservices for document processing pipeline
@@ -216,7 +217,7 @@ Time series forecasting and analysis system for financial market data, implement
 
 ## Research
 
-### Current Research
+### Master's Thesis
 
 **Memory-Efficient and Explainable Deep Learning Framework for Pneumonia Detection from Chest X-Ray Images Using a Quantized EfficientNet-B0**
 
